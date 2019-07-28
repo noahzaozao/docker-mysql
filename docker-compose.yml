@@ -14,5 +14,5 @@ volumes:
     driver: local
     driver_opts:
       type: "nfs"
-      o: "addr=${NFS_HOST},nolock,soft,rw"
-      device: ":${NFS_PATH}"
+      o: "${NFS_HOST}"
+      device: "${NFS_PATH}"
