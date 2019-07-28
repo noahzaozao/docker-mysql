@@ -1,1 +1,1 @@
-docker stack deploy -c docker-compose.yml stack_mysql
+docker stack deploy -c <(docker-compose config) trunk_mysql
